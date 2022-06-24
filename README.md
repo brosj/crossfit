@@ -1,3 +1,5 @@
+# Fitness247
+Fitness 247 is a modern fitness exercises app using two separate APIs!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
