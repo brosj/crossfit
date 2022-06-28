@@ -5,7 +5,7 @@ import { ThreeDots } from 'react-loader-spinner';
 const Loader = () => {
   return (
     <Stack direction="row" justifyContent="center" alignItems="center" width="100%">
-      <ThreeDots color="gray" />
+      <ThreeDots color="#2f296a" />
     </Stack>
   )
 }

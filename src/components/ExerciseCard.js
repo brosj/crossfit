@@ -11,7 +11,7 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#FFF",
-            background: "#FFA9A9",
+            background: "#2f296a",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",
@@ -24,7 +24,7 @@ const ExerciseCard = ({ exercise }) => {
           sx={{
             ml: "21px",
             color: "#FFF",
-            background: "#FCC757",
+            background: "#e9b850",
             fontSize: "14px",
             borderRadius: "20px",
             textTransform: "capitalize",

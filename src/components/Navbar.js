@@ -20,7 +20,7 @@ const Navbar = () => {
         <img
           src={Logo}
           alt="logo"
-          style={{ width: "48px", height: "48px", margin: "0 20px" }}
+          style={{ width: "78px", height: "48px", margin: "0 20px" }}
         />
       </Link>
       <Stack direction="row" gap="40px" fontSize="24px" alignItems="flex-end">
@@ -28,8 +28,8 @@ const Navbar = () => {
           to="/"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
-            borderBottom: "3px solid #FF2625",
+            color: "#13133c",
+            borderBottom: "3px solid #2f296a",
           }}
         >
           Home
@@ -38,7 +38,7 @@ const Navbar = () => {
           href="#exercises"
           style={{
             textDecoration: "none",
-            color: "#3A1212",
+            color: "#13133c",
           }}
         >
           Exercises

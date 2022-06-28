@@ -6,10 +6,10 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
 
   return (
-    <Box sx={{ marginTop: { lg: "200px", xs: "20px" } }} p="20px">
-      <Typography variant="h3" mb="33px">
+    <Box sx={{ marginTop: { lg: "100px", xs: "20px" } }} p="20px">
+      <Typography variant="h4" mb="50px">
         Watch{" "}
-        <span style={{ color: "#FF2625", textTransform: "capitalize" }}>
+        <span style={{ color: "#2f296a", textTransform: "capitalize" }}>
           {name}
         </span>{" "}
         exercise videos
@@ -18,7 +18,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         justifyContent="flex-start"
         flexWrap="wrap"
         alignItems="center"
-        sx={{ flexDirection: { lg: "row" }, gap: { lg: "110px", xs: "0" } }}
+        sx={{ flexDirection: { lg: "row" }, columnGap: { lg: "120px", xs: "0" } }}
       >
         {exerciseVideos?.slice(0, 6).map((item, index) => (
           <a
