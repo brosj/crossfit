@@ -10,7 +10,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   useEffect(() => {
     const fetchExercisesData = async () => {
       const bodyPartsData = await fetchData(
-        `https://${process.env.REACT_APP_RAPID_API_HOST}/exercises/bodyPartList`,
+        `${process.env.REACT_APP_EXERCISE_HOST}/exercises/bodyPartList`,
         exerciseOptions
       );
       setBodyParts(["all", ...bodyPartsData]);
@@ -21,7 +21,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const handleSearch = async () => {
     if (search) {
       const exercisesData = await fetchData(
-        `https://${process.env.REACT_APP_RAPID_API_HOST}/exercises`,
+        `${process.env.REACT_APP_EXERCISE_HOST}/exercises`,
         exerciseOptions
       );
 
@@ -91,6 +91,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           data={bodyParts}
           bodyPart={bodyPart}
           setBodyPart={setBodyPart}
+          isBodyParts
         />
       </Box>
     </Stack>

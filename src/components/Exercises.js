@@ -27,12 +27,12 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
       if (bodyPart === "all") {
         exercisesData = await fetchData(
-          `https://${process.env.REACT_APP_RAPID_API_HOST}/exercises`,
+          `${process.env.REACT_APP_EXERCISE_HOST}/exercises`,
           exerciseOptions
         );
       } else {
         exercisesData = await fetchData(
-          `https://${process.env.REACT_APP_RAPID_API_HOST}/exercises/bodyPart/${bodyPart}`,
+          `${process.env.REACT_APP_EXERCISE_HOST}/exercises/bodyPart/${bodyPart}`,
           exerciseOptions
         );
       }
