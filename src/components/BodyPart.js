@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack, Typography } from "@mui/material";
 
-import Icon from "../assets/icons/gym.png";
+import Icon from "../assets/icons/dumbbell_1.png";
 
 const BodyPart = ({ item, bodyPart, setBodyPart }) => {
   return (
@@ -19,7 +19,7 @@ const BodyPart = ({ item, bodyPart, setBodyPart }) => {
         width: "200px",
         height: "200px",
         cursor: "pointer",
-        gap: "40px",
+        gap: "25px",
       }}
       onClick={() => {
         setBodyPart(item);
@@ -30,7 +30,7 @@ const BodyPart = ({ item, bodyPart, setBodyPart }) => {
       <img
         src={Icon}
         alt="dumbbell"
-        style={{ width: "40px", height: "40px" }}
+        style={{ width: "80px", height: "80px" }}
       />
       <Typography
         fontSize="24px"
