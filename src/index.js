@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter } from 'react-router-dom';
 import * as ReactDOMClient from 'react-dom/client';
 

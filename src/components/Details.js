@@ -61,9 +61,6 @@ const Details = ({ exerciseDetails }) => {
             </Typography>
           </Stack>
         ))}
-        {/* <Button variant="contained" color="primary">
-          Start
-        </Button> */}
       </Stack>
     </Stack>
   );
