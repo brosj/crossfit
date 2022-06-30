@@ -18,7 +18,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
         justifyContent="flex-start"
         flexWrap="wrap"
         alignItems="center"
-        sx={{ flexDirection: { lg: "row" }, columnGap: { lg: "120px", xs: "0" } }}
+        sx={{ flexDirection: { lg: "row" }, columnGap: { lg: "120px", xs: "0" }, rowGap: { lg: "50px", xs: "0" } }}
       >
         {exerciseVideos?.slice(0, 6).map((item, index) => (
           <a
