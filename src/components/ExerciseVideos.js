@@ -9,10 +9,10 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
     <Box sx={{ marginTop: { lg: "100px", xs: "20px" } }} p="20px">
       <Typography variant="h4" mb="50px">
         Watch{" "}
-        <span style={{ color: "#2f296a", textTransform: "capitalize" }}>
+        <span style={{ color: "#2f296a" }}>
           {name}
         </span>{" "}
-        exercise videos
+        exercise videos on YouTube
       </Typography>
       <Stack
         justifyContent="flex-start"

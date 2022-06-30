@@ -11,16 +11,16 @@ const Details = ({ exerciseDetails }) => {
   const extraDetails = [
     {
       icon: BodyPartImage,
-      name: bodyPart
+      name: bodyPart,
     },
     {
       icon: TargetImage,
-      name: target
+      name: target,
     },
     {
       icon: EquipmentImage,
-      name: equipment
-    }
+      name: equipment,
+    },
   ];
 
   return (
@@ -30,17 +30,35 @@ const Details = ({ exerciseDetails }) => {
     >
       <img src={gifUrl} alt={name} loading="lazy" className="detail-image" />
       <Stack sx={{ gap: { lg: "35px", xs: "20px" } }}>
-        <Typography variant="h3" textTransform="capitalize">{name}</Typography>
-        <Typography variant="h6">
-          Exercises keep you strong. <span style={{ textTransform: "capitalize" }}>{name}</span> is one of the best exercises to target your {target}. It will improve your mood and is guaranteed to help you gain energy.
+        <Typography variant="h3" textTransform="capitalize">
+          {name}
+        </Typography>
+        <Typography fontSize="24px" fontWeight="400">
+          Exercises keep you strong.{" "}
+          <span style={{ textTransform: "capitalize" }}>{name}</span> is one of
+          the best exercises to target your {target}. It will improve your mood
+          and is guaranteed to help you gain energy.
         </Typography>
 
         {extraDetails.map(({ icon, name }) => (
           <Stack key={name} direction="row" gap="24px" alignItems="center">
-            <Button sx={{ background: '#FFF2DB', borderRadius: '50%', width: '100px', height: '100px'}}>
-              <img src={icon} alt={bodyPart} style={{ width: '50px', height: '50px' }} />
+            <Button
+              sx={{
+                background: "#FFF2DB",
+                borderRadius: "50%",
+                width: "100px",
+                height: "100px",
+              }}
+            >
+              <img
+                src={icon}
+                alt={bodyPart}
+                style={{ width: "50px", height: "50px" }}
+              />
             </Button>
-            <Typography variant="h5" textTransform="capitalize">{name}</Typography>
+            <Typography variant="h5" textTransform="capitalize">
+              {name}
+            </Typography>
           </Stack>
         ))}
         {/* <Button variant="contained" color="primary">
@@ -49,6 +67,6 @@ const Details = ({ exerciseDetails }) => {
       </Stack>
     </Stack>
   );
-}
+};
 
 export default Details;

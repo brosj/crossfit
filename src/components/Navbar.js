@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Stack } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 
 import Logo from "../assets/images/Logo.png";
 
@@ -32,7 +32,9 @@ const Navbar = () => {
             borderBottom: "3px solid #2f296a",
           }}
         >
-          Home
+          <Typography fontSize="22px" fontWeight="400">
+            Home
+          </Typography>
         </Link>
         <a
           href="#exercises"
@@ -41,7 +43,9 @@ const Navbar = () => {
             color: "#13133c",
           }}
         >
-          Exercises
+          <Typography fontSize="22px" fontWeight="400">
+            Exercises
+          </Typography>
         </a>
       </Stack>
     </Stack>

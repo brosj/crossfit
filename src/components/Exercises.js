@@ -45,8 +45,16 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
 
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
-      <Typography variant="h4" mb="46px">
-        Showing Results
+      <Typography
+        // variant="h4"
+        mb="50px"
+        fontSize="28px"
+        fontWeight="400"
+        textTransform="capitalize"
+        textAlign="center"
+      >
+        {/* Showing Results {indexOfFirstExercise+1} - {indexOfLastExercise+1} of {exercises.length} */}
+        {bodyPart} Exercises
       </Typography>
 
       <Stack
