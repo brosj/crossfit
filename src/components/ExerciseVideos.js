@@ -6,7 +6,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
 
   return (
-    <Box sx={{ marginTop: { lg: "100px", xs: "20px" } }} p="20px">
+    <Box id="exercises" sx={{ marginTop: { lg: "100px", xs: "20px" } }} p="20px">
       <Typography variant="h4" mb="50px">
         Watch{" "}
         <span style={{ color: "#2f296a" }}>
