@@ -12,10 +12,20 @@ To see it live go to [https://cross-fit.netlify.app/](https://cross-fit.netlify.
 - ExerciseDB API
 - Youtube Search API
 
+## Teaser:
+**Homepage**
 ![Homepage screenshot](/screenshots/Screenshot1.png?raw=true "CrossFit Homepage")
+
+**Exercise categories**
 ![Exercise categories screenshot](/screenshots/Screenshot2.png?raw=true "Exercise categories")
+
+**Specific muscle group exercises**
 ![Specific muscle group exercises screenshot](/screenshots/Screenshot3.png?raw=true "Specific muscle group exercises")
+
+**Exercise details**
 ![Exercise details screenshot](/screenshots/Screenshot4.png?raw=true "Exercise details")
+
+**Related videos from YouTube and similar exercises**
 ![Similar exercises screenshot](/screenshots/Screenshot5.png?raw=true "Related videos from YouTube and similar exercises")
 
 ## Setup
