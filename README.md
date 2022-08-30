@@ -15,24 +15,25 @@ To see it live go to [https://cross-fit.netlify.app/](https://cross-fit.netlify.
 ## Teaser:
 **Homepage**
 ![Homepage screenshot](/screenshots/Screenshot1.png?raw=true "CrossFit Homepage")
-
+<br />
 **Exercise categories**
 ![Exercise categories screenshot](/screenshots/Screenshot2.png?raw=true "Exercise categories")
-
+<br />
 **Specific muscle group exercises**
 ![Specific muscle group exercises screenshot](/screenshots/Screenshot3.png?raw=true "Specific muscle group exercises")
-
+<br />
 **Exercise details**
 ![Exercise details screenshot](/screenshots/Screenshot4.png?raw=true "Exercise details")
-
+<br />
 **Related videos from YouTube and similar exercises**
 ![Similar exercises screenshot](/screenshots/Screenshot5.png?raw=true "Related videos from YouTube and similar exercises")
+<br />
 
 ## Setup
-To run the app in the development mode, cd into the project directory from your terminal and then run:
-### `npm install`
+To run the app in the development mode, `cd` into the project directory from your terminal and then run:
+`npm install`
 
 Afterwards run the command:
-### `npm start`
+`npm start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
