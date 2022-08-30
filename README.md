@@ -12,11 +12,11 @@ To see it live go to [https://cross-fit.netlify.app/](https://cross-fit.netlify.
 - ExerciseDB API
 - Youtube Search API
 
-![Homepage screenshot](/screenshots\Screenshot1.png?raw=true "CrossFit Homepage")
-![Exercise categories screenshot](/screenshots\Screenshot2.png?raw=true "Exercise categories")
-![Specific muscle group exercises screenshot](/screenshots\Screenshot3.png?raw=true "Specific muscle group exercises")
-![Exercise details screenshot](/screenshots\Screenshot4.png?raw=true "Exercise details")
-![Similar exercises screenshot](/screenshots\Screenshot5.png?raw=true "Related videos from YouTube and similar exercises")
+![Homepage screenshot](/screenshots/Screenshot1.png?raw=true "CrossFit Homepage")
+![Exercise categories screenshot](/screenshots/Screenshot2.png?raw=true "Exercise categories")
+![Specific muscle group exercises screenshot](/screenshots/Screenshot3.png?raw=true "Specific muscle group exercises")
+![Exercise details screenshot](/screenshots/Screenshot4.png?raw=true "Exercise details")
+![Similar exercises screenshot](/screenshots/Screenshot5.png?raw=true "Related videos from YouTube and similar exercises")
 
 ## Setup
 To run the app in the development mode, cd into the project directory from your terminal and then run:
